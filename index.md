@@ -2,8 +2,8 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
-  pid: obj10
+  collection: pets
+  pid: i1
   y: 25%
   height: '500px'
 ---
@@ -12,4 +12,4 @@ banner:
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='qatar' %}
+{% include collection_gallery.html facet_by='animal' collection='pets' %}

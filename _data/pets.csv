@@ -1,0 +1,11 @@
+pid,pet_name,animal,breed,order,layout,collection,thumbnail,full
+i1,Tallulah,Dog,Golden Retriever,00,pets_item,pets,/img/derivatives/simple/i1/thumbnail.jpg,/img/derivatives/simple/i1/fullwidth.jpg
+i2,Ruby,Dog,Golden Retriever,01,pets_item,pets,/img/derivatives/simple/i2/thumbnail.jpg,/img/derivatives/simple/i2/fullwidth.jpg
+i3,Marvin,Cat,Tuxedo,02,pets_item,pets,/img/derivatives/simple/i3/thumbnail.jpg,/img/derivatives/simple/i3/fullwidth.jpg
+i4,Maisy,Cat,Calico,03,pets_item,pets,/img/derivatives/simple/i4/thumbnail.jpg,/img/derivatives/simple/i4/fullwidth.jpg
+i5,Cricket,Cat,Tuxedo,04,pets_item,pets,/img/derivatives/simple/i5/thumbnail.jpg,/img/derivatives/simple/i5/fullwidth.jpg
+i6,Murphy,Dog,Golden Retriever,05,pets_item,pets,/img/derivatives/simple/i6/thumbnail.jpg,/img/derivatives/simple/i6/fullwidth.jpg
+i7,Otter,Dog,Golden Retriever,06,pets_item,pets,/img/derivatives/simple/i7/thumbnail.jpg,/img/derivatives/simple/i7/fullwidth.jpg
+i8,Rory,Dog,Jack Russell Terrier,07,pets_item,pets,/img/derivatives/simple/i8/thumbnail.jpg,/img/derivatives/simple/i8/fullwidth.jpg
+i9,Luka,Dog,English Labrador Retriever,08,pets_item,pets,/img/derivatives/simple/i9/thumbnail.jpg,/img/derivatives/simple/i9/fullwidth.jpg
+i10,Bizet,Dog,Aussidoodle,09,pets_item,pets,/img/derivatives/simple/i10/thumbnail.jpg,/img/derivatives/simple/i10/fullwidth.jpg
