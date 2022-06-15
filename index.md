@@ -2,8 +2,8 @@
 layout: page
 show_title: false
 banner:
-  collection: pets
-  pid: i1
+  collection: dewing
+  pid: d1
   y: 25%
   height: '500px'
 ---
@@ -12,4 +12,4 @@ banner:
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='animal' collection='pets' %}
+{% include collection_gallery.html facet_by='medium' collection='dewing' %}

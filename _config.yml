@@ -39,7 +39,7 @@ exclude:
   - vendor
   - spec
   - README.md
-incremental: true
+incremental: false
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
@@ -65,13 +65,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  pets: # name of collection
+  dewing: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'pets_item' # the layout for the pages to use
+    layout: 'dewing_item' # the layout for the pages to use
     metadata:
-      source: 'pets.csv' # path to the metadata file within `_data`
+      source: 'dewing.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/pets' # path to the directory of images within `_data`
+      source: 'raw_images/dewing' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -85,12 +85,15 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      pets:
+      dewing:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - pet_name
-          - animal
-          - breed
+          - label
+          - artist
+          - date
+          - location
+          - dimensions
+          - medium
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS

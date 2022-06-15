@@ -1,0 +1,61 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/dewing.json",
+  "@type": "sc:Collection",
+  "label": "dewing",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d9"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d8"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d6"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d7"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d5"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d10"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d3"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/d2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "d2"
+    }
+  ]
+}
